@@ -103,7 +103,7 @@ DATABASES = {
         'NAME': os.getenv('ecommerce'),
         'USER': os.getenv('ecommerce'),
         'PASSWORD': os.getenv('ecommerce'),
-        'HOST': os.getenv('ecommerce.cnc2sqay8s3y.ap-south-1.rds.amazonaws.com'),
+        'HOST': os.getenv('localhost'),
         'PORT': os.getenv('3306'),
     }
 }
